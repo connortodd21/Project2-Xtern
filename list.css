@@ -2,6 +2,15 @@ body{
     padding: 1rem 4rem
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+
 #txtbox{
      font-size:18pt;
      height:25px;
@@ -12,7 +21,6 @@ body{
 #submitButton{
     height: 31px;
     width: 100px;
-    float: middle;
 }
 
 #myH1{
